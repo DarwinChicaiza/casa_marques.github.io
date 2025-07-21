@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Casa Marqués</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Casa Marqués</h1>
+    <nav>
+      <a href="#menu">Menú</a>
+      <a href="#galeria">Galería</a>
+      <a href="#reservas">Reservas</a>
+      <a href="#nosotros">Nosotros</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-texto">
+      <h2>Donde el sabor encuentra la tierra</h2>
+      <a class="boton" href="#reservas">Reservar mesa</a>
+    </div>
+  </section>
+
+  <section id="menu">
+    <h2>Menú Destacado</h2>
+    <div class="grid">
+      <article>
+        <img src="IMG/I2.jpg" alt="Entrada gourmet" class="zoomable">
+        <h3>Entradas</h3>
+        <p>Sabores que abren el apetito.</p>
+      </article>
+      <article>
+        <img src="IMG/I3.jpg" alt="Plato fuerte" class="zoomable">
+        <h3>Platos Fuertes</h3>
+        <p>Recetas que conquistan paladares.</p>
+      </article>
+      <article>
+        <img src="IMG/I4.jpg" alt="Postre" class="zoomable">
+        <h3>Postres</h3>
+        <p>Un final dulce y sofisticado.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="galeria">
+    <h2>Galería</h2>
+    <div class="galeria">
+      <img src="IMG/I5.jpg" alt="Interior elegante" class="zoomable">
+      <img src="IMG/I6.jpg" alt="Plato gourmet" class="zoomable">
+      <img src="IMG/I7.jpg" alt="Decoración natural" class="zoomable">
+    </div>
+  </section>
+
+  <section id="reservas">
+    <h2>Reservas</h2>
+    <form id="formulario">
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Correo electrónico" required>
+      <input type="date" required>
+      <button type="submit">Reservar</button>
+    </form>
+  </section>
+
+  <section id="nosotros">
+    <h2>Sobre Casa Marqués</h2>
+    <p>Casa Marqués es un lugar donde la cocina artesanal se fusiona con ingredientes frescos de la tierra, en un ambiente cálido y sofisticado.</p>
+  </section>
+
+  <footer>
+    <p>📍 Quito, Ecuador | ☎️ (02) 123-4567 | © 2025 Casa Marqués</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
